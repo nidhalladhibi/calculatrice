@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 10px;;
+    background-image: url('pngtree-calculator-on-a-background-of-graphs-and-charts-picture-image_2770352.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.calculator {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pngtree-calculator-on-a-background-of-graphs-and-charts-picture-image_2770352.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 10px;
+}
+
+
+
+
+.display {
+    background-color: #222;
+    color: #fff;
+    font-size: 4rem;
+    text-align: right;
+    padding: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn:active {
+    background-color: #bbb;
+}
